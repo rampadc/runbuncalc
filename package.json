@@ -4,7 +4,10 @@
   "repository": "github:smogon/damage-calc",
   "license": "MIT",
   "dependencies": {
-    "@smogon/calc": "file:calc"
+    "@apollo/server": "^5.0.0",
+    "@smogon/calc": "file:calc",
+    "graphql": "^16.11.0",
+    "graphql-tag": "^2.12.6"
   },
   "devDependencies": {
     "eslint": "^8.27.0",
